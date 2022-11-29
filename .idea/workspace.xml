@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4d5f9ff9-62ab-4b69-a2b2-01c2913583b1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/t300-longest-increasing-subsequence/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/t085-maximal-rectangle/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,14 +61,14 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build github.com/librant/LeetcodeLearn/t300-longest-increasing-subsequence">
-    <configuration name="go build github.com/librant/LeetcodeLearn/t075-sort-colors" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build github.com/librant/LeetcodeLearn/t085-maximal-rectangle">
+    <configuration name="go build github.com/librant/LeetcodeLearn/t085-maximal-rectangle" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="LeetcodeLearn" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/librant/LeetcodeLearn/t075-sort-colors" />
+      <package value="github.com/librant/LeetcodeLearn/t085-maximal-rectangle" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/t075-sort-colors/main.go" />
+      <filePath value="$PROJECT_DIR$/t085-maximal-rectangle/main.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build github.com/librant/LeetcodeLearn/t200-number-of-islands" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -109,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build github.com/librant/LeetcodeLearn/t085-maximal-rectangle" />
         <item itemvalue="Go Build.go build github.com/librant/LeetcodeLearn/t300-longest-increasing-subsequence" />
         <item itemvalue="Go Build.go build github.com/librant/LeetcodeLearn/t813-largest-sum-of-averages" />
         <item itemvalue="Go Build.go build github.com/librant/LeetcodeLearn/t463-island-perimeter" />
         <item itemvalue="Go Build.go build github.com/librant/LeetcodeLearn/t200-number-of-islands" />
-        <item itemvalue="Go Build.go build github.com/librant/LeetcodeLearn/t075-sort-colors" />
       </list>
     </recent_temporary>
   </component>
