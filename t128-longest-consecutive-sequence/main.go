@@ -27,10 +27,15 @@ func longestConsecutive(nums []int) int {
 				currentNum++
 				currentStreak++
 			}
-			if maxCnt < currentStreak {
-				maxCnt = currentStreak
-			}
+			maxCnt = MAX(maxCnt, currentStreak)
 		}
 	}
 	return maxCnt
+}
+
+func MAX(a, b int) int {
+	if a > b {
+		return a
+	}
+	return b
 }
