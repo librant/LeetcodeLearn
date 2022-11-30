@@ -11,33 +11,38 @@ func main() {
 	fmt.Printf("%d", largestRectangleArea(heights))
 }
 
-// 单调栈：
+// 单调栈：通过一个栈，存储其中 以 i 为中心，左右两边最小值，则为当前 i 能扩散的最远距离
 func largestRectangleArea(heights []int) int {
 	n := len(heights)
+	// left：这里表示以当前 i 的位置，向左能扩散到的最小位置
+	// right: 这里表示以当前 i 的位置，向右能扩散到的最大位置
 	left, right := make([]int, n), make([]int, n)
-	mono_stack := []int{}
+	// 临时存放
+	stack := []int{}
 	for i := 0; i < n; i++ {
-		for len(mono_stack) > 0 && heights[mono_stack[len(mono_stack)-1]] >= heights[i] {
-			mono_stack = mono_stack[:len(mono_stack)-1]
+		// 当前栈顶的元素比当前元素的值大，就需要将栈中的数据弹出
+		for len(stack) > 0 && heights[stack[len(stack) - 1]] >= heights[i] {
+			stack = stack[:len(stack)-1]
 		}
-		if len(mono_stack) == 0 {
+		if len(stack) == 0 {
 			left[i] = -1
 		} else {
-			left[i] = mono_stack[len(mono_stack)-1]
+			left[i] = stack[len(stack)-1]
 		}
-		mono_stack = append(mono_stack, i)
+		stack = append(stack, i)
 	}
-	mono_stack = []int{}
+	stack = []int{}
 	for i := n - 1; i >= 0; i-- {
-		for len(mono_stack) > 0 && heights[mono_stack[len(mono_stack)-1]] >= heights[i] {
-			mono_stack = mono_stack[:len(mono_stack)-1]
+		// 当前栈顶的元素比当前元素的值大，就需要将栈中的数据弹出
+		for len(stack) > 0 && heights[stack[len(stack)-1]] >= heights[i] {
+			stack = stack[:len(stack)-1]
 		}
-		if len(mono_stack) == 0 {
+		if len(stack) == 0 {
 			right[i] = n
 		} else {
-			right[i] = mono_stack[len(mono_stack)-1]
+			right[i] = stack[len(stack)-1]
 		}
-		mono_stack = append(mono_stack, i)
+		stack = append(stack, i)
 	}
 	ans := 0
 	for i := 0; i < n; i++ {
