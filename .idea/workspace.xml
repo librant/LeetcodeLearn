@@ -6,7 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="4d5f9ff9-62ab-4b69-a2b2-01c2913583b1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/t128-longest-consecutive-sequence/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/t128-longest-consecutive-sequence/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/t146-lru-cache/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/t146-lru-cache/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/t198-house-robber/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/t198-house-robber/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/t300-longest-increasing-subsequence/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/t300-longest-increasing-subsequence/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/t901-online-stock-span/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/t901-online-stock-span/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +64,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build github.com/librant/LeetcodeLearn/t055-jump-game">
+  <component name="RunManager" selected="Go Build.go build github.com/librant/LeetcodeLearn/t128-longest-consecutive-sequence">
     <configuration name="go build github.com/librant/LeetcodeLearn/t001-two-sum" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="LeetcodeLearn" />
       <working_directory value="$PROJECT_DIR$" />
@@ -89,6 +92,15 @@
       <filePath value="$PROJECT_DIR$/t085-maximal-rectangle/main.go" />
       <method v="2" />
     </configuration>
+    <configuration name="go build github.com/librant/LeetcodeLearn/t128-longest-consecutive-sequence" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="LeetcodeLearn" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/librant/LeetcodeLearn/t128-longest-consecutive-sequence" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/t128-longest-consecutive-sequence/main.go" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build github.com/librant/LeetcodeLearn/t300-longest-increasing-subsequence" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="LeetcodeLearn" />
       <working_directory value="$PROJECT_DIR$" />
@@ -98,22 +110,13 @@
       <filePath value="$PROJECT_DIR$/t300-longest-increasing-subsequence/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build github.com/librant/LeetcodeLearn/t813-largest-sum-of-averages" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="LeetcodeLearn" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="github.com/librant/LeetcodeLearn/t813-largest-sum-of-averages" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/t813-largest-sum-of-averages/main.go" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build github.com/librant/LeetcodeLearn/t128-longest-consecutive-sequence" />
         <item itemvalue="Go Build.go build github.com/librant/LeetcodeLearn/t055-jump-game" />
         <item itemvalue="Go Build.go build github.com/librant/LeetcodeLearn/t001-two-sum" />
         <item itemvalue="Go Build.go build github.com/librant/LeetcodeLearn/t085-maximal-rectangle" />
         <item itemvalue="Go Build.go build github.com/librant/LeetcodeLearn/t300-longest-increasing-subsequence" />
-        <item itemvalue="Go Build.go build github.com/librant/LeetcodeLearn/t813-largest-sum-of-averages" />
       </list>
     </recent_temporary>
   </component>

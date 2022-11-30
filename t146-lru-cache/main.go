@@ -55,6 +55,7 @@ func (this *LRUCache) Get(key int) int {
 	if _, ok := this.cache[key]; !ok {
 		return -1
 	}
+	// 将当前访问过的节点移动到头节点
 	node := this.cache[key]
 	this.moveToHead(node)
 	return node.value
@@ -91,7 +92,9 @@ func (this *LRUCache) removeNode(node *DLinkedNode) {
 }
 
 func (this *LRUCache) moveToHead(node *DLinkedNode) {
+	// 先将节点从链表中删除
 	this.removeNode(node)
+	// 再讲节点增加到链表头
 	this.addToHead(node)
 }
 

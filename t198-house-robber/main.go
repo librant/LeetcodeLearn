@@ -12,8 +12,9 @@ func main() {
 	fmt.Printf("%d", rob(arr))
 }
 
-// dp[i]: 表示前 i 个房间偷的最大现金
+// dp[i]: 表示前 i 个房间偷的最大现金，需要包含第 i 个房间
 // dp[i] = MAX(dp[i-1], dp[i-2] + f[i])
+// 整个最大的最大金额，不一定是最后一个，是 dp[i] 中最大的值
 func rob(nums []int) int {
 	// 动态规划
 	n := len(nums)

@@ -12,7 +12,7 @@ import "fmt"
 // 状态转移方程：
 // 当 nums[i] > nums[j], 则表示可以接在 dp[j] 后面, 此时， dp[i] = MAX(dp[j]) + 1
 // 当 nums[i] <= nums[j], 则表示不可以接在 dp[j] 后面, 此时 dp[i] = dp[j]
-// 注意 {nums}[i]nums[i] 必须被选取
+// 注意 nums[i] 必须被选取
 // 这里的最大值，不一定是 dp[n-1]， 因为这个 dp[i] 是必须选择 num[i] 的值，所以要取 dp[i] 中最大的值
 
 func main() {

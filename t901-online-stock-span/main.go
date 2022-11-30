@@ -38,7 +38,7 @@ func Constructor() StockSpanner {
 	return StockSpanner{[][2]int{{-1, math.MaxInt32}}, -1}
 }
 
-// 使用单调不增的栈的方式，当输入的金额超过栈顶元素，需要将栈中的小的元素弹出
+// 使用单调不增的栈的方式，当输入的金额超过栈顶元素，需要将栈中的小于当前的元素弹出
 
 func (s *StockSpanner) Next(price int) int {
 	s.idx++
