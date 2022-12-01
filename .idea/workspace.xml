@@ -5,11 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4d5f9ff9-62ab-4b69-a2b2-01c2913583b1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/900/t895-maximum-frequency-stack/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/t146-lru-cache/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/t146-lru-cache/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/t198-house-robber/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/t198-house-robber/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/t300-longest-increasing-subsequence/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/t300-longest-increasing-subsequence/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/t901-online-stock-span/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/t901-online-stock-span/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/t001-two-sum/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/100/t001-two-sum/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/t002-add-two-numbers/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/100/t002-add-two-numbers/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/t003-longest-substring-without-repeating-characters/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/100/t003-longest-substring-without-repeating-characters/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/t005-longest-palindromic-substring/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/100/t005-longest-palindromic-substring/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/t011-container-with-most-water/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/100/t011-container-with-most-water/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/t015-3sum/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/100/t015-3sum/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/t042-trapping-rain-water/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/100/t042-trapping-rain-water/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/t055-jump-game/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/100/t055-jump-game/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/t070-climbing-stairs/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/100/t070-climbing-stairs/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/t072-edit-distance/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/100/t072-edit-distance/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/t075-sort-colors/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/100/t075-sort-colors/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/t084-largest-rectangle-in-histogram/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/100/t084-largest-rectangle-in-histogram/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/t085-maximal-rectangle/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/100/t085-maximal-rectangle/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/t128-longest-consecutive-sequence/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/200/t128-longest-consecutive-sequence/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/t146-lru-cache/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/200/t146-lru-cache/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/t198-house-robber/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/200/t198-house-robber/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/t200-number-of-islands/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/200/t200-number-of-islands/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/t300-longest-increasing-subsequence/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/300/t300-longest-increasing-subsequence/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/t463-island-perimeter/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/400/t463-island-perimeter/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/t494-target-sum/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/400/t494-target-sum/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/t739-daily-temperatures/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/800/t739-daily-temperatures/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/t813-largest-sum-of-averages/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/900/t813-largest-sum-of-averages/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/t901-online-stock-span/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/1000/t901-online-stock-span/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,10 +81,23 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/1000" />
+      <recent name="$PROJECT_DIR$/900" />
+      <recent name="$PROJECT_DIR$/800" />
+      <recent name="$PROJECT_DIR$/400" />
+      <recent name="$PROJECT_DIR$/300" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build github.com/librant/LeetcodeLearn/t128-longest-consecutive-sequence">
+  <component name="RunManager" selected="Go Build.go build github.com/librant/LeetcodeLearn/900/t895-maximum-frequency-stack">
+    <configuration name="go build github.com/librant/LeetcodeLearn/900/t895-maximum-frequency-stack" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="LeetcodeLearn" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/librant/LeetcodeLearn/900/t895-maximum-frequency-stack" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/900/t895-maximum-frequency-stack/main.go" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build github.com/librant/LeetcodeLearn/t001-two-sum" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="LeetcodeLearn" />
       <working_directory value="$PROJECT_DIR$" />
@@ -101,22 +134,13 @@
       <filePath value="$PROJECT_DIR$/t128-longest-consecutive-sequence/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build github.com/librant/LeetcodeLearn/t300-longest-increasing-subsequence" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="LeetcodeLearn" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="github.com/librant/LeetcodeLearn/t300-longest-increasing-subsequence" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/t300-longest-increasing-subsequence/main.go" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build github.com/librant/LeetcodeLearn/900/t895-maximum-frequency-stack" />
         <item itemvalue="Go Build.go build github.com/librant/LeetcodeLearn/t128-longest-consecutive-sequence" />
         <item itemvalue="Go Build.go build github.com/librant/LeetcodeLearn/t055-jump-game" />
         <item itemvalue="Go Build.go build github.com/librant/LeetcodeLearn/t001-two-sum" />
         <item itemvalue="Go Build.go build github.com/librant/LeetcodeLearn/t085-maximal-rectangle" />
-        <item itemvalue="Go Build.go build github.com/librant/LeetcodeLearn/t300-longest-increasing-subsequence" />
       </list>
     </recent_temporary>
   </component>
@@ -134,5 +158,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
