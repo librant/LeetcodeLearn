@@ -16,13 +16,12 @@ func main() {
 func canJump(nums []int) bool {
 	n := len(nums)
 	pos := 0
-	for i := 0; i < n; {
+	for i := 0; i < n; i = pos{
 		// 每次能到达的最大位置，只要大于 n-1 的位置，则认为是可以到达最后
 		pos = MAX(pos, i+nums[i])
 		if pos >= n-1 {
 			return true
 		}
-		i = pos
 	}
 	return false
 }
