@@ -2,6 +2,8 @@ package main
 
 import "fmt"
 
+// https://leetcode.cn/problems/minimum-number-of-operations-to-move-all-balls-to-each-box/
+
 func main() {
 	boxes1 := "110"
 	fmt.Printf("%v\n", minOperations(boxes1))
