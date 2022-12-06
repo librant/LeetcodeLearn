@@ -15,18 +15,23 @@ func longestConsecutive(nums []int) int {
 	n := len(nums)
 	arrMap := make(map[int]bool)
 	for i := 0; i < n; i++ {
+		// 将所有的数据作为 key 存入
 		arrMap[nums[i]] = true
 	}
 	maxCnt := 0
 	for k := range arrMap {
-		// 左边的值存在则，则直接进入下一个循环
+		// 左边的值存在则，则直接进入下一个循环，因为在下一次遍历的时候，需要从左值开始遍历
 		if !arrMap[k-1] {
+			// 记录当前的 k 的值，这个就是连续的起始值
 			currentNum := k
+			// 当前连续的第一个值
 			currentStreak := 1
+			// 再往前进行遍历，看连续存在的长度
 			for arrMap[currentNum+1] {
 				currentNum++
 				currentStreak++
 			}
+			// 返回当前最大的连续值
 			maxCnt = MAX(maxCnt, currentStreak)
 		}
 	}
